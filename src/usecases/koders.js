@@ -9,8 +9,8 @@ function getById (id) {
   return Koders.findById(id)
 }
 
-function create () {
-  return Koders.create({name,age})
+function create (name, age) {
+  return Koders.create( {name, age})
 }
 function deleteById(id) {
   return Koders.findByIdAndDelete(id)
