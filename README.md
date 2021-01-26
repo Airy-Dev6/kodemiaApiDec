@@ -29,11 +29,11 @@ Este es el proceso que debemmos seguir cuando necitamos agregar un nuevo endpoin
 
 1. Modelos: Aegurarnos de tener el accceso a datos que necesitamos para la tarea o crear el modelo 
 
-2. Usecases: 
+2. Usecases: Asegurarnos de tener las funciones necesarias para las taresa 
 
 3. Router: Asegurarnos de tener las ruta(s) necesarias o crear la ruta/routes decesaria(s)
 
-4.  
+4. Asegurarnos de que nuestro router este montado en el server, si no, proceder a montarlo 
 
 
 
