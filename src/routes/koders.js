@@ -1,10 +1,13 @@
-const { request } = require('express')
+//const { request } = require('express')
 const express = require('express')
 const koders = require('./../usecases/koders')
 
+const authMiddleware = require('../middlewares/auth')/* 
+const auth = require('../middlewares/auth') */
+
 const router = express.Router()
 
-router.get('/',async (request, response) => {
+router.get('/', authMiddleware, async (request, response) => {
   const allKoders = await koders.getAll()
 
   response.json({
